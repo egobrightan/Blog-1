@@ -1,0 +1,6 @@
+extends layout
+block main-content
+    md-sidenav.md-sidenav-left.md-whiteframe-z2.md-locked-open(md-component-id="left", md-is-locked-open="$mdMedia('gt-sm')", ui-view="sidebar")
+    div(layout="column", flex, role="main")
+        md-toolbar.md-whiteframe-glow-z1.site-content-toolbar.md-default-theme(ui-view="header")
+        md-content.md-default-theme(layout="column", flex, ui-view="main")

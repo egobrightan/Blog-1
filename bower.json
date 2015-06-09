@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "blog",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Darius Cupsa"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.0",
+    "bootstrap": "~3.3.4",
+    "angular-ui-router": "~0.2.15",
+    "fontawesome": "~4.3.0",
+    "toastr": "~2.1.1",
+    "angular-material": "~0.9.8",
+    "persistenceJar": "https://bitbucket.org/NicolaeTusinean/persistencejar.git"
+  }
+}
